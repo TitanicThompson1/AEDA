@@ -1,0 +1,34 @@
+ PostOffice po;
+    Postman p1;
+    p1. setName("joao");
+    p1.addMail(new RegularMail("ana", "rui","4400-146", 33));
+    p1.addMail(new RegularMail("luis", "rui","4400-146", 33));
+    Postman p2;
+    p2. setName("paulo");
+    p2.addMail(new RegularMail("rui", "ana","3330-454", 33));
+    p2.addMail(new RegularMail("luis", "maria","8600-306", 67));
+    p2.addMail(new RegularMail("carla", "lara","7100-514", 67));
+    Postman p3;
+    p3.setName("fernando");
+    p3.addMail(new RegularMail("manuel", "ana","3330-454", 33));
+    po.addPostman(p1);
+    po.addPostman(p2);
+    po.addPostman(p3);
+
+    vector <Mail *> mailP = po.removePostman("paulo");
+    cout << "3: " << mailP.size() << endl;
+    cout << "2: " << po.getPostman().size() << endl;
+
+    mailP.clear();
+    mailP = po.removePostman("sergio");
+    cout << "0: " <<  mailP.size() << endl;
+
+    mailP.clear();
+    mailP = po.removePostman("fernando");
+    cout << "1: " << mailP.size() << endl;
+
+    mailP.clear();
+    mailP = po.removePostman("joao");
+    cout << "2: " << mailP.size() << endl;
+
+    cout << "0: " << po.getPostman().size() << endl;

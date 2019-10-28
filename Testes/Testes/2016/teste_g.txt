@@ -1,0 +1,32 @@
+ PostOffice po;
+    Postman p1;
+    p1. setName("joao");
+    p1.addMail(new RegularMail("ana", "rui","4400-146", 33));
+    p1.addMail(new RegularMail("luis", "rui","4400-146", 33));
+    Postman p2;
+    p2. setName("paulo");
+    Postman p3;
+    p3.setName("fernando");
+    p3.addMail(new RegularMail("manuel", "ana","3330-454", 33));
+    po.addPostman(p1);
+    po.addPostman(p2);
+    po.addPostman(p3);
+
+    Postman px = po.addMailToPostman(new RegularMail("rui", "ana","3330-454", 33),"paulo");
+    cout << "1: " << px.getMail().size() << endl;
+
+    try{po.addMailToPostman(new RegularMail("rui", "ana","3330-454", 33),"luis");}catch (NoPostmanException &p){
+        cout << p.getName() << endl;
+    }
+
+    try {
+        px = po.addMailToPostman(new RegularMail("rui", "ana","3330-454", 33),"joao");
+        cout << "3: " << px.getMail().size() << endl;
+        px = po.addMailToPostman(new RegularMail("rui", "ana","3330-454", 33),"ricardo");
+    }
+    catch(NoPostmanException &e) {
+        cout << "ricardo:  "<< e.getName() << endl;
+    }
+
+    px = po.addMailToPostman(new RegularMail("rui", "ana","3330-454", 33),"fernando");
+    cout << "2: " << px.getMail().size() << endl;
