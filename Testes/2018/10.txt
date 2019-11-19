@@ -1,8 +1,0 @@
-Numa pesquisa binária, é necessario garantir que o vector esteja ordenado antes de se começar a pesquisa
-Esta ordenação prévia do vector pode, dependendo do seu tamanho e do algoritmo utilizado, anular a rapidez
-caracteristica da pesquisa binária, podendo até torna-lo mais lento que o de pesquisa sequencial
-Porém, só é necessário ordenar o vector uma unica vez. Sendo assim, se for preciso fazer várias pesquisas, a desvantagem de gastar recursos
-para ordenar o vector começa a desvanecer, ficando mais eficaz, a longo prazo, utilizar a pesquisa binaria.
-
-Resumindo, a pesquisa binária, apesar de ser eficaz ( O( log(N) ) ) tem a desvantagem de se ter de ordenar o vector, enquanto a 
-pesquisa sequencial, sendo menos rapida (O(N)), não acarreta essa necessidade.

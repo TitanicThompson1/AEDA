@@ -1,0 +1,32 @@
+A afirmação é verdadeira
+O polimorfismo ocorre quando se declara numa classe base um membro-funcãocomo virtual. 
+Isto faz com que, ao chamar a funcão, se nas classes derivadas existir um membro-funcao com igual definição, será este membro-funcao
+a ser invocado, não o dda classe base.
+
+Por exemplo:
+class Pessoa{
+/*...*/
+public:
+	virtual void imprimeInformacao();  //imprime para a consola 
+};
+
+class Estudante: public Pessoa{
+/*...*/
+public:
+	void imprimeInformacao();
+};
+
+---------------------------------------
+int main(){
+	vector<Pessoa *> v
+	preencheVectorComPessoas(v);				//funcao que preence um vector do tipo Pessoa * com apontadores para pessoas aleatorias
+	Estudante* es;
+	es->preencheCampos();						//preenche a pessoa localizada em es com dados aleatorios
+	v.push_back(es);
+	v.at(v.size()-1)->imprimeInformacao();		//imprime a informação do estudando usando o membro-funcao da classe Estudante
+}
+
+--------------------------------------------
+
+Assim, com o polimorfismo, consegue-se a adaptar a invocacao de um membro-funcao de acordo com o contexto pretendido.
+	

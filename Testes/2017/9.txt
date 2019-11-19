@@ -1,2 +1,0 @@
-Primeiro, ao passar por referencia nao se gasta memoria a criar uma copia para a funcao.
-Segundo, não perde tempo ao copiar o objeto

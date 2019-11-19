@@ -1,3 +1,0 @@
-No algoritmo QuickSort, o pior caso acontece quando, ao escolher os pivots, escolhe-se o valor mais pequeno do vetor/sub-vetor.
-Isto faz com que, ao dividir o vetor, os sub-vetores resultados tenham comprimento n-1 e 1. Ao repetir isto N vezes, dá uma complexidade
-temporal de N^2.

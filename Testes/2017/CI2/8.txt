@@ -1,0 +1,2 @@
+Um iterador é um objeto que aponta para um determinado elemento dentro de um contentor.
+Nao, estruturas como filas e stacks nao utilizam iteradores.

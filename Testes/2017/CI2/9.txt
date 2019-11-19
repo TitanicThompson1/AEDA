@@ -1,0 +1,2 @@
+A afirmação é verdadeira, uma vez que as listas só suportam iteradores bi-direcionais, e, para realizar uma pesquisa binaria, é necessario
+poder ir de um iterador para o seguinte, sem que o seguinte seja o imediatamente a seguir ou antes (ou seja, é necessario RandomAcessIterators)

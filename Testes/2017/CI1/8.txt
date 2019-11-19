@@ -1,0 +1,7 @@
+Uma classe abstrata é uma classe que tem um metodo definido como:
+	virtual <nome_variavel> <nome_funcao>() = 0;
+Serve para criar conceitos abstratos, ou seja, serve para criar uma classe geral em que cada classe derivada os metodos diferem no modo 
+de implementação
+Por exemplo, considere-se uma classe Shape, que tem varias classes derivadas (Rectangle, Square, Circle) e um metodo getArea(). 
+Como a implementação do metodo getArea() difere com a forma a que estamos a referir, faz sentido que a classe Shape seja abstrata(ou seja,
+o metodo getArea() passa a ser virtual getArea() = 0)
