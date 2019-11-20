@@ -1,0 +1,21 @@
+ PostOffice po("3100-000", "4409-999");
+    po.addMailToSend(new RegularMail("manuel", "ana","3330-454", 33));
+    po.addMailToSend(new RegularMail("ana", "rui","4400-146", 550));
+    po.addMailToSend(new GreenMail("maria", "luis","2520-110", "bag"));
+    po.addMailToSend(new GreenMail("carla", "lara","7100-514", "envelope"));
+
+    unsigned int bal = 0;
+    vector<Mail *> mailToOtherPO = po.endOfDay(bal);
+    cout << "680: " <<  bal << endl;
+    cout <<"2: " << mailToOtherPO.size() << endl;
+    cout << "2: " << po.getMailToDeliver().size() << endl;
+    cout << "0: " << po.getMailToSend().size() << endl;
+
+    PostOffice po2("3100-000", "4409-999");
+    po2.addMailToSend(new RegularMail("rita", "joana","5200-514", 120));
+
+    mailToOtherPO = po2.endOfDay(bal);
+    cout << "140: " << bal << endl;
+    cout <<"1: " << mailToOtherPO.size() << endl;
+    cout <<"0: " << po2.getMailToDeliver().size() << endl;
+    cout << "0: " << po2.getMailToSend().size() << endl;

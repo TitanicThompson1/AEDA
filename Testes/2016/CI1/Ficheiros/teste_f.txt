@@ -1,0 +1,24 @@
+Postman p1;
+    p1. setName("joao");
+    p1.addMail(new RegularMail("rui", "ana","3330-454", 33));
+    p1.addMail(new RegularMail("ana", "rui","4400-146", 33));
+    p1.addMail(new RegularMail("luis", "rui","4400-146", 33));
+
+    Postman p2;
+    p2. setName("paulo");
+    p2.addMail(new RegularMail("rui", "ana","3330-454", 33));
+    p2.addMail(new RegularMail("carla", "lara","7100-514", 67));
+    p2.addMail(new RegularMail("luis", "maria","8600-306", 67));
+
+
+    cout << "true: "<< (p1<p2) << endl;
+    cout << "false: "<< (p2<p1) << endl;
+
+    p1.addMail(new RegularMail("joana", "rui","4400-146", 33));
+    p1.addMail(new RegularMail("rita", "joana","5200-514", 120));
+    p1.addMail(new RegularMail("maria", "lara","7100-514", 67));
+
+    p2.addMail(new RegularMail("maria", "lara","8600-306", 67));
+
+    cout << "false: "<< (p1<p2) << endl;
+    cout << "true: "<< (p2<p1) << endl;

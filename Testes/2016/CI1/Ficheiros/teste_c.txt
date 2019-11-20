@@ -1,0 +1,9 @@
+	RegularMail m1("manuel", "ana","3330-454", 33);
+    RegularMail m2("ana", "rui","4400-146", 550);
+    GreenMail m3("maria", "luis","2520-110", "bag");
+    GreenMail m4("carla", "lara","7100-514", "envelope");
+
+    cout << "75: " << m1.getPrice() << endl;
+    cout << "325: " <<  m2.getPrice() << endl;
+    cout << "200: " <<  m3.getPrice() << endl;
+    cout << "80: " << m4.getPrice() << endl;
