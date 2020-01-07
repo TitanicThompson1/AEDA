@@ -1,0 +1,14 @@
+MenuInicial: 1
+MenuRegistar: 2
+MenuLogin: 3
+MenuImoveis: 4
+MenuPerfil: 5
+MenuImoveisVer: 6
+MenuSImoveisFiltrarTipo: 7
+MenuCompraImovel: 8
+MenuLimparFiltros: 9
+MenuFiltrarTipo: 10
+MenuFiltrarLoc: 11
+MenuAlterarPerfil: 12
+MenuVerReservas: 13
+MenuLogout: 14

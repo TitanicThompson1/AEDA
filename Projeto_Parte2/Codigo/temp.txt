@@ -1,0 +1,18 @@
+1
+vivenda
+Vivenda a la grande
+1000
+Rua dos Santos,50,9500-987,Calheta
+::::::::::
+2
+casa
+Casa dos Borges
+200
+Rua da Alegria,20,5879-987,Porto
+::::::::::
+3
+apartamento
+Party 'partment
+2000
+Rua da Maria,65,6969-420,Porto
+::::::::::

@@ -1,0 +1,72 @@
+1
+casa
+Vivenda a la grande
+1000
+Rua dos Santos,50,cedofeita,9500-987,Calheta
+1
+11/12/2009-20/12/2009
+1
+::::::::::
+2
+apartamento
+Party 'partment
+2000
+Rua da Maria,65,mafamude,6969-420,Porto
+2
+11/12/2009-20/12/2009,1/2/2010-5/2/2010
+2
+::::::::::
+3
+casa
+Casa Nunes
+4500
+45,45,45,45,45
+3
+
+3
+::::::::::
+4
+vivenda
+MaHouse
+1000
+Rua da Maria,100,paranhos,6969-430,Porto
+4
+11/12/2020-20/12/2020
+4
+::::::::::
+5
+casa
+LarDoceLar
+300
+Rua dos Combatentes,258,senhora da hora,6500-120,Porto
+5
+11/12/2009-20/12/2009,1/2/2010-5/2/2010
+5
+::::::::::
+6
+apartamento
+FestaNoAp
+2000
+Avenida da Republica,255,ramalde,4430-020,Porto
+6
+20/12/2019-30/12/2019,1/2/2020-5/2/2020
+6
+::::::::::
+7
+vivenda
+SecretGarden
+1500
+Rua Brasil,115,boavista,6969-420,Porto
+7
+11/12/2019-20/12/2019
+7
+::::::::::
+8
+casa
+LittleCottage
+2000
+Rua da Angola,935,mafamude,4430-094,Porto
+8
+11/12/2009-20/12/2009,1/2/2010-5/2/2010
+8
+::::::::::

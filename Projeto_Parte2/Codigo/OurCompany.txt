@@ -1,0 +1,7 @@
+ImoveLandia
+Rua dos Penhadores,20,cedofeita,9874-741,Porto
+Imoveis.txt
+clients.txt
+Contratos.txt
+reservas.txt
+leiloes.txt

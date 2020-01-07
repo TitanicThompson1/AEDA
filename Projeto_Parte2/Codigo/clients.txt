@@ -1,0 +1,132 @@
+1
+Singular
+Maria Silva
+123456789
+mariasilva@gmail.com
+xuxu
+Comprar,Arrendar Longa Duração
+2
+1,3
+0
+::::::::::
+2
+Singular
+José Maria
+987654321
+jmaria@hotmail.com
+xuxu
+Arrendar Curta Duração,Arrendar Longa Duração
+1
+2
+30
+::::::::::
+3
+Singular
+Luis Nunes
+456987123
+luiznunesss@gmail.com
+xuxu
+Flexivel,Longa Duracao
+1
+3
+20
+::::::::::
+4
+Singular
+Joana Vaz
+456954544
+joanavaz@gmail.com
+xuxu
+Flexivel,Longa Duracao,Compra
+1
+4
+10
+::::::::::
+5
+Empresa
+Buildings Ltda
+147258369
+buildingsltda@hotmail.com
+xuxu
+Compra
+1
+5
+80
+::::::::::
+6
+Empresa
+Deebs
+123654987
+imfabulous@hotmail.com
+xuxuxao
+Compra,Longa Duracao
+1
+6
+20
+::::::::::
+7
+Empresa
+Jose Antonio
+987654321
+jjjjj@hotmail.com
+soudemais
+Compra,Longa Duracao,Flexivel
+1
+7
+5
+::::::::::
+8
+Empresa
+ricardo
+12547898
+roicardo
+ricardo
+Compra
+0
+0
+20
+::::::::::
+9
+Empresa
+Ricky
+123456789
+ricardooonuness@gmail.com
+oioioi
+Compra
+0
+0
+20
+::::::::::
+10
+Empresa
+2
+321
+2
+21
+Compra,Longa Duracao,Flexivel
+0
+0
+10
+::::::::::
+11
+Empresa
+4
+3256
+4
+2
+Compra
+0
+0
+3
+::::::::::
+12
+Singular
+oi
+456213
+oi
+123
+Compra
+0
+0
+2
+::::::::::
