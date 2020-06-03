@@ -5,7 +5,8 @@
 - Aulas teóricas: Ana Paula Rocha
 - Aulas teórica-prática: Ana Paula Rocha
 
-#
-
 ## Conteúdo do Git:
 Neste Git é possivel encontrar resoluções das aulas práticas e testes. Também está presente o projeto final 
+
+## Projeto final:
+Sistema em C++ que simula um site onde se pode comprar/arrendar moradias (do tipo AirBnb)
